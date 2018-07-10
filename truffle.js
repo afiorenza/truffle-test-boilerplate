@@ -22,7 +22,13 @@ module.exports = {
       network_id: 3,
       port: 8545,
       gas: 2900000
-    }
+    },
+      kovan: {
+      host: kovan.cryptologic.io:8787,
+      port: 8747,
+      network_id: "*",
+      from: "0x44751576b07eee07de3d8d5bfb9c8dd77add1744"
+    },
   },
   mocha: {
    useColors: true
